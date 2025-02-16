@@ -3,7 +3,7 @@ First Edition of the Circula Knitting Dataset
 — Intelligent Systems Software Laboratory, National Central University, Taiwan
 
 ## Introduction to the First Edition of the Circula Knitting Dataset
-The first edition of the Periodic Knitted Fabric Dataset has been compiled and open-sourced by the Intelligent Software Systems Laboratory at National Central University, Taiwan. It includes three types of knitted fabrics. The dataset consists of 10,000 training images and 500 test images, with image resolutions of 800x640 and 400x320.
+The first edition of the Circula Knitting Dataset has been compiled and open-sourced by the Intelligent Software Systems Laboratory at National Central University, Taiwan. It includes three types of knitted fabrics. The dataset consists of 10,000 training images and 500 test images, with image resolutions of 800x640 and 400x320.
 
 ## Dataset Characteristics
 ### Cutline Characteristics
@@ -17,7 +17,7 @@ Since the camera lacks a color sensor, the captured images are strongly affected
 ![img_5.png](img_5.png)
 
 ### Periodicity Characteristics
-The periodicity of images in different datasets may vary. Periodicity refers to the number of images between the occurrences of two consecutive cutlines. In the Periodic Knitted Fabric Dataset, this value ranges from 60 to 300.
+The periodicity of images in different datasets may vary. Periodicity refers to the number of images between the occurrences of two consecutive cutlines. In the Circula Knitting Dataset, this value ranges from 60 to 300.
 
 For example, in dataset 243_1_00 (periodicity = 60):
 ![img_7.png](img_7.png)
@@ -50,7 +50,7 @@ The test images are collected sequentially to reflect the dynamic nature of real
 | Dataset6 | Non-Uniform Lighting| Texture 3  | 15 / 15             | 1100 / 40 / 34          |
 
 ## File Structure
-The Circular Knitted Fabric Dataset (CKD-1) folder contains three fabric types: Texture 1, Texture 2, and Texture 3. These are placed in three separate directories, each named accordingly. The overall structure is as follows:
+The Circula Knitting Dataset (CKD-1) folder contains three fabric types: Texture 1, Texture 2, and Texture 3. These are placed in three separate directories, each named accordingly. The overall structure is as follows:
 ![img_8.png](img_8.png)
 
 Each knitted fabric dataset includes two subdirectories: train (training set) and test (test set). The training set contains defect-free images and periodic cutline images, stored in the defect-free folder. Corresponding ground truth defect masks are stored in the groundtruth folder. The test set includes periodic cutline images (circular folder) and ground truth annotations. The test set consists of defect-free images, periodic cutline images, and defective samples (defect folder).

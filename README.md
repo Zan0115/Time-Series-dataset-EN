@@ -19,7 +19,7 @@ Since the camera lacks a color sensor, the captured images are strongly affected
 ### Periodicity Characteristics
 The periodicity of images in different datasets may vary. Periodicity refers to the number of images between the occurrences of two consecutive cutlines. In the Circula Knitting Dataset, this value ranges from 60 to 300.
 
-For example, in dataset 243_1_00 (periodicity = 60):
+For example, periodicity = 60:
 ![img_7.png](img_7.png)
 
 ### Defect Characteristics
